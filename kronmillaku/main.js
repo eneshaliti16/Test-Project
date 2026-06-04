@@ -1,5 +1,5 @@
 const rentBtn = document.getElementById("rentBtn");
 
 rentBtn.addEventListener("click", () => {
-    alert("Welcome to DriveNow Car Rental!");
+    alert("Mirë se vini në Luxury Wheels!");
 });
