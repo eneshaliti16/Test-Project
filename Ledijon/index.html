@@ -1,53 +1,104 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DriveEasy Car Rental</title>
+    <title>Rental Cars | Contact Us</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-    <header>
-        <h1>DriveEasy Car Rental</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Cars</a></li>
-                <li><a href="#">Booking</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<section class="contact-section">
 
-    <section class="hero">
-        <h2>Rent Your Dream Car Today</h2>
-        <p>Affordable, reliable, and luxury cars available.</p>
-        <button onclick="showMessage()">Book Now</button>
-    </section>
+    <div class="contact-container">
 
-    <section class="cars">
-        <div class="card">
-            <h3>Toyota Corolla</h3>
-            <p>$45/day</p>
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h2>Kontaktoni</h2>
+            <p>
+                Have questions about our rental cars? Contact us and our team
+                will help you find the perfect vehicle.
+            </p>
+
+            <div class="info-item">
+                <i class="fas fa-user"></i>
+                <span>Ledijon Pllana</span>
+            </div>
+
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <span></span>
+            </div>
+
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <span>+383 44 123 456</span>
+            </div>
+
+            <div class="info-item">
+                <i class="fas fa-location-dot"></i>
+                <span>Prishtina, Kosov</span>
+            </div>
         </div>
 
-        <div class="card">
-            <h3>BMW X5</h3>
-            <p>$120/day</p>
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Dergo Mesazh</h2>
+
+            <form id="contactForm">
+
+                <div class="input-box">
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Emri"
+                        required>
+                </div>
+
+                <div class="input-box">
+                    <input
+                        type="text"
+                        id="surname"
+                        placeholder="Mbiemri"
+                        required>
+                </div>
+
+                <div class="input-box">
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Email"
+                        required>
+                </div>
+
+                <div class="input-box">
+                    <textarea
+                        id="message"
+                        placeholder="Mesazh shtes..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="btn">
+                    Dergo
+                </button>
+
+                <div id="success" class="success"></div>
+                <div id="error" class="error"></div>
+
+            </form>
         </div>
 
-        <div class="card">
-            <h3>Mercedes C-Class</h3>
-            <p>$150/day</p>
-        </div>
-    </section>
+    </div>
 
-    <footer>
-        <p>&copy; 2026 DriveEasy Car Rental</p>
-    </footer>
+</section>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
+```
