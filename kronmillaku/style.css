@@ -40,7 +40,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #ff3c00;
+    color: blue;
 }
 
 .hero {
@@ -74,7 +74,7 @@ body {
 button {
     padding: 15px 35px;
     border: none;
-    background: #ff3c00;
+    background: blue;
     color: white;
     font-size: 18px;
     border-radius: 30px;
@@ -84,5 +84,5 @@ button {
 
 button:hover {
     background: white;
-    color: #ff3c00;
+    color: black;
 }
