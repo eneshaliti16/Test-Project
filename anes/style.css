@@ -105,3 +105,17 @@ button:hover{
         width:95%;
     }
 }
+
+.hidden-car{
+    display:none;
+}
+
+.more-container{
+    width:90%;
+    max-width:1400px;
+    margin:20px auto 50px;
+}
+
+#showMoreBtn{
+    width:100%;
+}
