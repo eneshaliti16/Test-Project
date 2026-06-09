@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Models</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h3>Luxury Wheels</h3>
+        <br><br><br><br>
+        <h1>Modelet tona</h1>
+        <p>Eksploro koleksionin ekskluziv të makinave luksoze dhe sportive</p>
+    </header>
+
+    <section class="models">
+
+        <div class="card">
+            <img src="images/bmw-m4.jpg" alt="BMW M4">
+            <div class="card-content">
+                <h2>BMW M4 Competition</h2>
+                <p>503 HP • 3.0L Twin Turbo • 290 km/h</p>
+                <button onclick="showModel('BMW M4 Competition')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mercedes-c63.jpg" alt="Mercedes C63">
+            <div class="card-content">
+                <h2>Mercedes C63 AMG</h2>
+                <p>503 HP • 4.0L V8 • 280 km/h</p>
+                <button onclick="showModel('Mercedes C63 AMG')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/audi-rs7.jpg" alt="Audi RS7">
+            <div class="card-content">
+                <h2>Audi RS7</h2>
+                <p>591 HP • 4.0L V8 • 305 km/h</p>
+                <button onclick="showModel('Audi RS7')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/porsche911.jpg" alt="Porsche 911">
+            <div class="card-content">
+                <h2>Porsche 911 Turbo S</h2>
+                <p>640 HP • 3.8L Twin Turbo • 330 km/h</p>
+                <button onclick="showModel('Porsche 911 Turbo S')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/lamborghini.jpg" alt="Lamborghini">
+            <div class="card-content">
+                <h2>Lamborghini Huracán EVO</h2>
+                <p>631 HP • 5.2L V10 • 325 km/h</p>
+                <button onclick="showModel('Lamborghini Huracán EVO')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/ferrari.jpg" alt="Ferrari">
+            <div class="card-content">
+                <h2>Ferrari F8 Tributo</h2>
+                <p>710 HP • 3.9L Twin Turbo • 340 km/h</p>
+                <button onclick="showModel('Ferrari F8 Tributo')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/gtr.jpg" alt="Nissan GTR">
+            <div class="card-content">
+                <h2>Nissan GT-R</h2>
+                <p>565 HP • 3.8L Twin Turbo • 315 km/h</p>
+                <button onclick="showModel('Nissan GT-R')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/supra.jpg" alt="Toyota Supra">
+            <div class="card-content">
+                <h2>Toyota GR Supra</h2>
+                <p>382 HP • 3.0L Turbo • 250 km/h</p>
+                <button onclick="showModel('Toyota GR Supra')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <!-- Hidden cars -->
+
+        <div class="card hidden-car">
+            <img src="images/mustang.jpg" alt="Mustang">
+            <div class="card-content">
+                <h2>Ford Mustang GT</h2>
+                <p>450 HP • 5.0L V8 • 250 km/h</p>
+                <button onclick="showModel('Ford Mustang GT')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card hidden-car">
+            <img src="images/corvette.jpg" alt="Corvette">
+            <div class="card-content">
+                <h2>Chevrolet Corvette C8</h2>
+                <p>495 HP • 6.2L V8 • 312 km/h</p>
+                <button onclick="showModel('Chevrolet Corvette C8')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card hidden-car">
+            <img src="images/bentley.jpg" alt="Bentley">
+            <div class="card-content">
+                <h2>Bentley Continental GT</h2>
+                <p>542 HP • 4.0L V8 Twin Turbo • 318 km/h</p>
+                <button onclick="showModel('Bentley Continental GT')">Shiko Detajet</button>
+            </div>
+        </div>
+
+        <div class="card hidden-car">
+            <img src="images/rolls.jpg" alt="Rolls Royce">
+            <div class="card-content">
+                <h2>Rolls-Royce Ghost</h2>
+                <p>563 HP • 6.75L V12 Twin Turbo • 250 km/h</p>
+                <button onclick="showModel('Rolls-Royce Ghost')">Shiko Detajet</button>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="more-container">
+        <button id="showMoreBtn">Shfaq më shumë</button>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
