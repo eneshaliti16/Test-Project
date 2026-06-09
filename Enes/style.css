@@ -25,6 +25,84 @@ nav{
     z-index:1000;
 }
 
+
+/* 
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    color:white;
+    cursor:pointer;
+}
+
+
+@media screen and (max-width:768px){
+
+    .hero-content h1{
+        font-size:40px;
+    }
+
+    nav{
+        position:relative;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    #nav-links{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background:#0f172a;
+        text-align:center;
+        padding:20px 0;
+    }
+
+    
+    #nav-links.active{
+        display:flex;
+    }
+} */
+
+/* Burger icon */
+
+/* .menu-toggle{
+    display:none;
+    font-size:32px;
+    color:white;
+    cursor:pointer;
+}
+
+/* MOBILE */
+
+/* @media screen and (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    #nav-links{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background:#0f172a;
+        text-align:center;
+        padding:20px 0;
+        gap:20px;
+    }
+
+    #nav-links.active{
+        display:flex;
+    }
+}  */
+
+
 .logo{
     color:white;
     font-size:28px;
@@ -186,3 +264,38 @@ nav ul{
     box-shadow:0 3px 10px rgba(0,0,0,.08);
 }
 
+
+/* BURGER */
+
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    color:white;
+    cursor:pointer;
+}
+
+/* MOBILE */
+
+@media screen and (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    #nav-links{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background:#0f172a;
+        text-align:center;
+        padding:20px 0;
+        gap:20px;
+    }
+
+    #nav-links.active{
+        display:flex;
+    }
+}
