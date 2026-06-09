@@ -25,6 +25,27 @@ nav{
     z-index:1000;
 }
 
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#3b82f6;
+}
 
 /* 
 .menu-toggle{
@@ -103,27 +124,7 @@ nav{
 }  */
 
 
-.logo{
-    color:white;
-    font-size:28px;
-    font-weight:bold;
-}
 
-nav ul{
-    display:flex;
-    list-style:none;
-    gap:30px;
-}
-
-nav ul li a{
-    color:white;
-    text-decoration:none;
-    transition:.3s;
-}
-
-nav ul li a:hover{
-    color:#3b82f6;
-}
 
 /* Hero */
 .hero{

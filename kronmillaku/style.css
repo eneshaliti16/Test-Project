@@ -10,7 +10,7 @@ body {
     background: #0b1f3a; /* blu e errët */
 }
 
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +41,39 @@ body {
 
 .nav-links a:hover {
     color: blue;
+} */
+
+nav{
+    background:#0f172a;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#3b82f6;
 }
 
 .hero {
